@@ -11,4 +11,4 @@ COPY --from=build /app/target/*.jar app.jar
 # SSL 관련 파일 복사 제거
 # COPY src/main/resources/keystore.p12 /app/keystore.p12
 ENTRYPOINT ["java"]
-CMD ["-jar", "app.jar"] # SSL 제거하고 8080 포트에서 실행
+CMD ["-jar", "app.jar"] 
