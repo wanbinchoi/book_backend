@@ -13,5 +13,5 @@ public class Book {
 	private String title;
 	private int price;
 	private int qty;
-	private String publihser;
+	private String publisher;
 }
